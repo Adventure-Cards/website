@@ -35,32 +35,32 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <title>Adventure Cards</title>
+      <meta name="title" content="Adventure Cards" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Adventure Cards is a collection of randomized trading cards generated and stored on chain."
       />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
-      <meta property="og:title" content="Loot" />
+      <meta property="og:url" content="https://0xAdventures.com/" />
+      <meta property="og:title" content="Adventure Cards" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Adventure Cards is a collection of randomized trading cards generated and stored on chain."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://0xadventures.com/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:url" content="https://0xadventures.com/" />
+      <meta property="twitter:title" content="Adventure Cards" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Adventure Cards is a collection of randomized trading cards generated and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://0xadventures.com/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,7 +96,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Adventure Cards</a>
         </Link>
       </div>
 
@@ -138,7 +138,7 @@ function Footer(): ReactElement {
       <p>
         This website is{" "}
         <a
-          href="https://github.com/lootproject/website"
+          href="https://github.com/Adventure-Cards/website"
           target="_blank"
           rel="noopener noreferrer"
         >
