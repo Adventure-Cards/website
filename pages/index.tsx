@@ -21,23 +21,16 @@ export default function Home(): ReactElement {
     },
   ];
 
-  const mapToObj = (m) => {
-    return Array.from(m).reduce((obj, [key, value]) => {
-      obj[key] = value;
-      return obj;
-    }, {});
-  };
   /**
    * Selects 3 random bags from defaultBags
    * @returns {Record<string, string>[]} randomized bags
    */
   const getRandomThreeDecks = () => {
     const shuffled = Object.entries(sampleDecks).sort(() => 0.5 - Math.random());
-    // return mapToObj(new Map(shuffled.slice(0, 3)));
     return shuffled.slice(0, 3);
   };
 
-  const higlight = (text) => {
+  const higlight = (text: string) => {
     return <span className={styles.home__highlight}> {text} </span>
   }
 

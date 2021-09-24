@@ -1,6 +1,6 @@
-# Loot
+# Adventure Cards
 
-Community-operated [website](https://www.lootproject.com/) for the Loot project.
+Community-operated [website](https://0xadventures.com/) for the Loot project.
 
 ## Contribute
 

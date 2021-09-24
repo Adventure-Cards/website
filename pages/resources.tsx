@@ -54,7 +54,6 @@ export default function Resources(): ReactElement {
               {list.map(({ name, description, url }, i) => {
                 // For each resource, render link and description
                 return (
-                  name !== "" ?
                   <li key={i}>
                     <p>
                       <a href={url} target="_blank" rel="noopener noreferrer">
@@ -62,11 +61,11 @@ export default function Resources(): ReactElement {
                       </a>{" "}
                       — {description}
                     </p>
-                  </li> : null
+                  </li>
                 );
               })}
             </ul>
-          </div> : null
+          </div> : <span/>
         );
       })}
     </Layout>
