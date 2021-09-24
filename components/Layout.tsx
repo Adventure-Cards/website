@@ -44,7 +44,7 @@ function Head(): ReactElement {
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://0xadventures.com/" />
+      <meta property="og:url" content="https://0xAdventures.com/" />
       <meta property="og:title" content="Adventure Cards" />
       <meta
         property="og:description"
