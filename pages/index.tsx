@@ -37,6 +37,10 @@ export default function Home(): ReactElement {
     return shuffled.slice(0, 3);
   };
 
+  const higlight = (text) => {
+    return <span className={styles.home__highlight}> {text} </span>
+  }
+
   return (
     <Layout>
       <div>
@@ -67,10 +71,16 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Adventure Cards is a collection of randomized trading cards generated and stored on chain.
-            <br /> Attributes, art, and game mechanics are intentionally
-            omitted for others to interpret and build. <br />
-            Feel free to use Adventure Cards in any way you want.
+            Adventure Cards is the first {higlight("collectable card game")} stored entirely on chain.
+            Each NFT includes {higlight("45 procedurally generated cards")}, enough to play a full game.
+          </p>
+          <p>
+            Inspired by LOOT and MtG, Adventure cards are {higlight("crypto primitives.")}
+            You can do anything you want with them. They are free to mint (except... you know... gas)
+          </p>
+          <p>
+            There are four types of cards: {higlight("creatures, artifact, enchantments, and spells.")}
+            You should notice some familiar things in there.
           </p>
         </div>
 

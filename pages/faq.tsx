@@ -15,7 +15,7 @@ export default function FAQ(): ReactElement {
 
         {/* What is PROJECT ? */}
         <div className={styles.faq__item}>
-          <h3>What is Adventure Cards?</h3>
+          <h3>What are Adventure Cards?</h3>
           <p>
             Adventure Cards is a collection of 8,000 unique card decks,
             originally released by{" "}
@@ -38,7 +38,7 @@ export default function FAQ(): ReactElement {
 
         {/* Why is PROJECT special? */}
         <div className={styles.faq__item}>
-          <h3>Why is Adventure Cards special?</h3>
+          <h3>Why are Adventure Cards special?</h3>
           <p>
             Adventure Cards is the first collectable card game stored entirely on chain.
             Each NFT includes 45 procedurally generated cards, enough to play a full game.
