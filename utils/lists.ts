@@ -41,4 +41,9 @@ export const marketsList: Record<string, string>[] = [
 
 // Adventure Cards resources
 export const derivativesList: Record<string, string>[] = [
+  {
+    name: "Cryptoodle Adventure Cards",
+    description: "SciFi themed Adventure Cards ",
+    url: "https://cryptoodles.medium.com/cryptoodle-adventure-card-nfts-20a59b2693e7",
+  }
 ];
